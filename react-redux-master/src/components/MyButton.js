@@ -5,8 +5,7 @@ import increment from '../action';
 const MyButton = () => {
     let dispatch = useDispatch();
     
-    return 
-    (
+    return (
         <button onClick={()=>dispatch(increment(1))}>Increase Counter</button>
     );
 };
